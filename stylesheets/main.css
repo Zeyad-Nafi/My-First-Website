@@ -72,3 +72,67 @@ header a {
     padding: 10px;
     border-radius: 8px;
 }
+.middle h1{
+    margin-top: 40px;
+    text-align: center;
+}
+.cards {
+    margin: 40px 280px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cards div {
+
+    width: 150px;
+}
+.cards p {
+    text-align: center;
+}
+.cards div div {
+    height: 150px;
+    width: 150px;
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+}
+.lower {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.lower em {
+    display: block;
+    width: 800px;
+    margin: auto;
+    font: 200;
+    font-size: 36px;
+}
+.lower h1 {
+    margin-left: 58%;
+    font-size: 1.;
+}
+.cta-lower {
+    padding: 100px;
+ 
+}
+.cta-lower-left {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.cta-lower-left a {
+    color: white;
+    border: white solid 3px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
